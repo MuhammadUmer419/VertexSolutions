@@ -244,6 +244,13 @@ h6 {
   font-weight: 700;
   color: var(--heading-color);
 }
+@media only screen and (max-width: 760px) {
+  .header .logo h1 {
+  font-size: 24px;
+
+}
+
+}
 
 .header .logo span {
   font-size: 32px;
@@ -278,6 +285,7 @@ h6 {
     order: 2;
     margin: 0 15px 0 0;
     padding: 6px 15px;
+    text-wrap: nowrap;
   }
 
   .header .navmenu {
@@ -1743,6 +1751,7 @@ section,
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  text-align: center ;
 }
 
 .contact .php-email-form {
